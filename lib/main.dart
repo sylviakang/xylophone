@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(XylophoneApp());
+void main() {
+  runApp(MyApp());
+}
 
-class XylophoneApp extends StatelessWidget {
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: SafeArea(
           child: Container(),
